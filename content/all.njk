@@ -1,0 +1,18 @@
+---
+layout: base
+eleventyExcludeFromCollections: true
+permalink: /all/
+---
+
+<h2>List of all posts with their contents:</h2>
+
+<ul>
+{%- for post in collections.post -%}
+  <li style="margin: 16px 0">
+    <h3><a href="{{ post.data.permalink }}">{{ post.data.title }}</a></h3>
+    {{ post.content|safe }}
+  </li>
+{%- endfor -%}
+</ul>
+
+<p><a href="/all/"><b>All posts with content</b></a></p>
