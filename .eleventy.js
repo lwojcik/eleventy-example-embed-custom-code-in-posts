@@ -16,13 +16,13 @@ const generateMarkup = (selectedPart) => `
       </li>
       <li>
         <a href="/series-episode-2/">
-        Post series: Episode 2
+          Post series: Episode 2
         </a>
         ${selectedPart === 2 ? YOU_ARE_HERE : ''}
       </li>
       <li>
-        <a href="'/series-episode-3/">
-        Post series: Episode 3
+        <a href="/series-episode-3/">
+          Post series: Episode 3
         </a>
         ${selectedPart === 3 ? YOU_ARE_HERE : ''}
       </li>

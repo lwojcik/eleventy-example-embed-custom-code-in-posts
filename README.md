@@ -2,6 +2,8 @@
 
 This is a minimal example illustrating how to embed custom code alongside item contents in Eleventy.
 
+[Demo](https://11ty-custom-embeds.lkmt.us/)
+
 [Read the blog post explaining this](https://blog.lukaszwojcik.net/eleventy-custom-markup-alongside-item-contents/)
 
 ## Setup
